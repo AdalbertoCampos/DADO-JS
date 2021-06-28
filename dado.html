@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="ícone.jpg" />
+    <title>Role o dado</title>
+    <script src="dado.js"></script>
+    <style>
+        p {
+            font-size: 40px;
+            color: rgb(74, 190, 51);
+        }
+        h1 {
+            border-radius: 70px;
+            text-align: center;
+            margin: auto;
+            width: 40%;
+            border: 3px solid rgb(29, 104, 14);
+            padding: 10px;
+            font-size: 100px;
+            color: rgb(74, 190, 51);
+        }
+        #botao {
+            text-align: center;
+            margin-top: 20px;
+        }
+        input {
+            border: rgb(74, 190, 51) solid;
+            width: 100px;
+            height: 50px;
+            color: rgb(29, 104, 14);
+            font-weight: 800;
+            font-size: 25px;
+            cursor: pointer;
+        }
+        #face {
+            text-align: center;
+        }
+        img {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+<h1>Boa sorte!</h1>
+    <div id="face">
+        <img src="face1.png" id="dado">
+    </div>
+    <div id="botao">
+        <p></p>
+        <input type="button" value="Rolar" onclick="roll()">
+    </div>
+    </div>
+</body>
+</html>
